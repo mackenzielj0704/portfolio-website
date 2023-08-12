@@ -1,0 +1,26 @@
+
+.box {
+    width: 70%;
+    height: 80%;
+    border: 2px solid;
+    border-color: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1%;
+    box-shadow: 2px 8px 10px -2px gray;
+    z-index: 1;
+    background-color: white;
+}
+
+.nav-link {
+    font-family:cursive;
+}
+.nav-item {
+    padding-left: 1%;
+}
+#sidebarMenu {
+    max-width: fit-content;
+    padding: 5px;
+}
