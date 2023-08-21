@@ -3,7 +3,7 @@ Aboout me page, will contain info about me and interests and influences/motivati
 */
 import './pageStyles/about.css'
 
-import URL from './images/me.jpeg'
+import URL from './me.jpg'
 
 function About () {
 
