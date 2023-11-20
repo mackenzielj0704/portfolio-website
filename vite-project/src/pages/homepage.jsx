@@ -10,9 +10,9 @@ function Homepage () {
             </div>
         <div className="boxes">
             <div className="careerGoals">
-                <h2>Goals</h2>
-                <p>Current: Starting my career as a developer with an entry-level job</p>
-                <p>Future: Becoming a worker that is seen as reliable and attentive</p>
+                <h2>Welcome!</h2>
+                <p>As a recent graduate I am excited to start working as a Developer.</p>
+                <p></p>
             </div>
             <div className="skills">
                 <h2>Skills</h2>

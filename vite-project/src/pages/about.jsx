@@ -1,6 +1,4 @@
-/*
-Aboout me page, will contain info about me and interests and influences/motivations
-*/
+
 import './pageStyles/about.css'
 
 import URL from './me.jpg'
@@ -10,14 +8,14 @@ function About () {
     return (
         <>
         <h1 className="title">About Me</h1>
-        <div className="boxes">
+        <img className='img' src={URL}/>
+        <div className="aboutBox">
             <div className="whoAmI">
-                <p>I am Mackenzie Jessup, I am a full-stack MERN developer.</p>
-                <p>I will graduate from Kenzie Academy with a certificate in November, and am excited to start working in this field.</p>
-                
+                <p>I am a October graduate from SNHU's full-stack web development certificate course. I am excited to use what I have learned!</p>
+                <p>I'm living in Beaufort, SC. In my freetime I enjoy spending time with my family and pets.</p>
+                 
             </div>
         </div>
-        <img className='img' src={URL}/>
         </>
     )
 }

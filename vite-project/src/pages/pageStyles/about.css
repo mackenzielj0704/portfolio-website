@@ -3,12 +3,18 @@
     height: 100%;
     margin-left: 2%;
 }
+.aboutBox {
+    position: relative;
+    top: -70%;
+    left: 13%;
+    max-width: 72%;
+}
 
 .img {
     width: 30%;
     border-radius: 10%;
     position: relative;
-    top: -15%;
-    left: 67%;
+    left: 64%;
+    top: -43%;
     z-index: -1;
 }

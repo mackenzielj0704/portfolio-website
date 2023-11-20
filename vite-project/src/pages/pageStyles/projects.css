@@ -11,7 +11,11 @@
     flex-wrap: wrap;
 
     position: relative;
-    top: -30%;
+    top: -35%;
     font-family: cursive;
     z-index: -1;
 }
+#pigLatin {
+ display: flex;
+ width: 140%;
+} 

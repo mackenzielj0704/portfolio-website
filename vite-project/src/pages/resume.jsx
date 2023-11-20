@@ -1,6 +1,3 @@
-/*
-placeholder for now, once resume is good, will be added as this page
-*/
 
 import './pageStyles/resume.css'
 

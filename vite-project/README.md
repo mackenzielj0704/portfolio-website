@@ -1,8 +1,13 @@
-# React + Vite
+Website goals:
+    Make so background is interactable
+    Fix problem of background causing whole website to be white
+    Add in projects
+        add the the same 3 projects that are in resume. give link and small video of the website + role on project
+    Add in resume
+        change placeholder to resume
+    Update About page 
+        add the same intro final project has + something about kenzie
+    Add in contact page so they can email from page
+    update home page
+        keep the same info, make it look nicer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
