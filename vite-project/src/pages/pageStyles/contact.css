@@ -1,5 +1,12 @@
 .link {
     position: relative;
     left: 20%;
-    top: -25%;
+    top: -30%;
+}
+
+.form {
+    position: relative;
+    left: 20%;
+    top: -28%;
+    max-width: 70%;
 }

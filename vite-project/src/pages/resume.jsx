@@ -6,9 +6,7 @@ function Resume () {
     return (
         <>
         <h1 className="title"> Resume</h1>
-        <object data="http://africau.edu/images/default/sample.pdf" type="application/pdf" width="90%" height="80%" className="pdf">
-            <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
-        </object>
+        <iframe src="https://docs.google.com/document/d/1RUgncBORZL40qUD8bPB0vHIzokFeNMf4/edit?usp=sharing&ouid=103000041122393437651&rtpof=true&sd=true" width="90%" height="82%" className="pdf" />
         </>
     )
 }
