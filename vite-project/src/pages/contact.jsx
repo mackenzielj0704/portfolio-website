@@ -1,18 +1,33 @@
-
+import emailjs from '@emailjs/browser'
 import { useState } from 'react'
 import './pageStyles/contact.css'
-import { Link } from "react-router-dom"
 
 function Contact () {
 
-    let [name, setName] = useState("")
-    let [email, setEmail] = useState("")
-    let [message, setMessage] = useState("")
+    const [toSend, setToSend] = useState({
+        from_name: '',
+        to_name: 'Mackenzie',
+        message: '',
+        reply_to: '',
+      })
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        return console.log(name, email, message)
+        console.log(toSend)
+        emailjs.send(
+            'service_8sjcepz',
+            'template_vmp8nlb',
+            toSend,
+            'CdHAPh_awI6c1Pzcr'
+          )
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+            })
+            .catch((err) => {
+                console.log('FAILED...', err);
+            });
     }
+
 
 return (
     <>
@@ -25,17 +40,23 @@ return (
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
-                    <input type="text" className="form-control" value={name} onChange={(e) => setName(e.target.value)}/>
+                    <input type="text" className="form-control" value={toSend.from_name} onChange={(e) => {
+                        setToSend({...toSend, from_name: e.target.value}) 
+                    }}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Email address</label>
-                    <input type="email" className="form-control" aria-describedby="emailHelp" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                    <input type="email" className="form-control" aria-describedby="emailHelp" value={toSend.reply_to} onChange={(e) => {
+                        setToSend({...toSend, reply_to: e.target.value}) 
+                    }}/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="message">Message</label>
-                    <textarea className="form-control" rows="5" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                    <textarea className="form-control" rows="5" value={toSend.message} onChange={(e) => {
+                        setToSend({...toSend, message: e.target.value}) 
+                    }}></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary">Send</button>
             </form>
         </div>
     </>
