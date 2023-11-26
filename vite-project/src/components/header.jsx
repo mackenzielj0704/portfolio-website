@@ -1,9 +1,7 @@
 import './header.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import Background from './background';
-
-
 
 function Header () {
 
@@ -14,17 +12,17 @@ function Header () {
           <nav id="sidebarMenu">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/">Home</a>
+                <Link className="nav-link" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">About</a>
+                <Link className="nav-link" to="/about">About</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/projects">Projects</a>
+                <Link className="nav-link" to="/projects">Projects</Link>
               </li><li className="nav-item">
-                <a className="nav-link" href="/resume">Resume</a>
+                <Link className="nav-link" to="/resume">Resume</Link>
               </li><li className="nav-item">
-                <a className="nav-link" href="/contact">Contact</a>
+                <Link className="nav-link" to="/contact">Contact</Link>
               </li>
             </ul>
         </nav>
