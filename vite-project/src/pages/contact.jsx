@@ -49,7 +49,7 @@ function Contact () {
 
     return (
         <>
-            <h1 className="title">Contacts</h1>
+            <h1 className="atitle">Contacts</h1>
             <h4 className="link">
                 LinkedIn: <a style={{textDecoration:"solid"}} target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/mackenzie-jessup-527198278">Mackenzie Jessup</a>
             </h4>

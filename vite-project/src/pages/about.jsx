@@ -7,7 +7,7 @@ function About () {
 
     return (
         <>
-        <h1 className="title">About Me</h1>
+        <h1 className="atitle">About Me</h1>
         <img className='img' src={URL}/>
         <div className="aboutBox">
             <div className="whoAmI">

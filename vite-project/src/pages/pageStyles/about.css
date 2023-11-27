@@ -18,3 +18,10 @@
     top: -43%;
     z-index: -1;
 }
+.atitle {
+    text-align: center;
+    position: relative;
+    top: -35%;
+    font-family: cursive;
+    z-index: -1;
+}

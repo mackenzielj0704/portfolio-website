@@ -8,7 +8,7 @@ function Projects () {
 
     return (
         <>
-        <h1 className="title">Projects</h1>
+        <h1 className="atitle">Projects</h1>
         <div className="resumeBoxes">
             <div className="project">
                 <h2>Maze/Sokoban Game</h2>
