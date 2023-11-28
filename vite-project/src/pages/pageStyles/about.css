@@ -25,3 +25,15 @@
     font-family: cursive;
     z-index: -1;
 }
+
+@media only screen and (max-width: 1024px) {
+    .atitle {
+        top: -30%;
+    }
+    .aboutBox {
+        top: -55%;
+    }
+    .img {
+        top: -30% ;
+    }
+}

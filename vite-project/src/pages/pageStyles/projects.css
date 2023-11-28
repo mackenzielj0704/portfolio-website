@@ -19,3 +19,10 @@
  display: flex;
  width: 140%;
 } 
+
+@media only screen and (max-width: 1024px) {
+    .resumeBoxes {
+        top: -30%;
+        font-size: 80%;
+    }
+}

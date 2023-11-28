@@ -3,3 +3,11 @@
     top: -30%;
     left: 8%;
 }
+
+@media only screen and (max-width: 1024px) {
+    .pdf {
+        top: -25%;
+        left: 15%;
+        max-width: 80%;
+    }
+}
