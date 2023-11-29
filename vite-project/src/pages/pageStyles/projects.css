@@ -66,15 +66,15 @@
 @media only screen and (max-width: 768px) {
     .resumeBoxes {
         top: -40%;
-        font-size: 80%;
+        font-size: 60%;
     }
     #three {
         position: relative;
-        left: -20%;
-        top: -50px;
+        left: 25%;
+        top: -28px;
     }
     .pigLatinText {
         width: fit-content;
-        min-width: 250px;
     }
+    
 }
