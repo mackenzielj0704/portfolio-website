@@ -54,27 +54,27 @@ function Contact () {
                 LinkedIn: <a style={{textDecoration:"solid"}} target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/mackenzie-jessup-527198278">Mackenzie Jessup</a>
             </h4>
             <div className='form'>
-                <h3>Email Me</h3>
+                <h3 id='emailMe'>Email Me</h3>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name" id='nameLabel'>Name</label>
                         <input type="text" id="name" className="form-control" value={toSend.from_name} autoComplete="given-name" onChange={(e) => {
                             setToSend({...toSend, from_name: e.target.value}) 
                         }}/>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="email">Email address</label>
+                        <label htmlFor="email" id='emailLabel'>Email address</label>
                         <input type="email" id='email' autoComplete="email" className="form-control" aria-describedby="emailHelp" value={toSend.reply_to} onChange={(e) => {
                             setToSend({...toSend, reply_to: e.target.value}) 
                         }}/>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message" id='messageLabel'>Message</label>
                         <textarea id='message' className="form-control" rows="5" value={toSend.message} onChange={(e) => {
                             setToSend({...toSend, message: e.target.value}) 
                         }}></textarea>
                     </div>
-                    <button type="submit" disabled={submit} className="btn btn-primary">Send</button>
+                    <button type="submit" disabled={submit} className="btn btn-primary" id='button'>Send</button>
                     <Submitted />
                 </form>
             </div>

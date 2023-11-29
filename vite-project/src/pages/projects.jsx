@@ -10,10 +10,10 @@ function Projects () {
         <>
         <h1 className="atitle">Projects</h1>
         <div className="resumeBoxes">
-            <div className="project">
-                <h2>Maze/Sokoban Game</h2>
+            <div className="project" id='one'>
+                <h2 className='h2'>Maze/Sokoban Game</h2>
                 <div>
-                <video width="50%" height="50%" controls>
+                <video width="50%" height="50%" controls className='video'>
                     <source src={MazeRecoring} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -23,23 +23,23 @@ function Projects () {
                     </p>
                 </div>
             </div>
-            <div className="project">
-                <h2>Shelf-Help</h2>
-                <video width="70%" height="70%" controls>
+            <div className="project" id='two'>
+                <h2 className='h2'>Shelf-Help</h2>
+                <video width="70%" height="70%" controls className='video'>
                     <source src={ShelfHelpRecording} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div>
-                    <h4><a target='_blank' rel='noopener noreferrer' href="http://54.81.116.198/" style={{textDecoration:"solid"}}>Capstone Project</a></h4>
+                    <h4 className='h2'><a target='_blank' rel='noopener noreferrer' href="http://54.81.116.198/" style={{textDecoration:"solid"}}>Capstone Project</a></h4>
                     <p>
                        Worked as backend developer. MERN stack was used for this project.<br /> Shelf-help is a site that allows you to save books you have/want to/or are reading.
                     </p>
                 </div>
             </div>
-            <div className="project">
-                <h2>Pig Latin Translator</h2>
+            <div className="project" id='three'>
+                <h2 className='h2'>Pig Latin Translator</h2>
                 <div id='pigLatin'>
-                <video width="47%" height="47%" controls className='pigLatinVideo'>
+                <video width="47%" height="47%" controls className='video'>
                     <source src={PigLatinRecording} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
