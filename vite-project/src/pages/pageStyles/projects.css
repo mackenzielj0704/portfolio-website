@@ -19,6 +19,11 @@
  display: flex;
  width: 140%;
 } 
+#three {
+    position: relative;
+    left: -23%;
+    top: -72px;
+}
 
 @media only screen and (max-width: 1024px) {
     .resumeBoxes {
@@ -55,25 +60,49 @@
     #three {
         position: relative;
         left: 25%;
-        top: 0%;
+        top: -58px;
     }
     #pigLatin {
         flex-direction: column;
         max-width: fit-content;
     }
+    #mazeV {
+        width: 50px;
+        height: 50px;
+    }
+    #shelfV {
+        width: 50px;
+        height: 70px;
+    }
+    #pigV {
+        width: 47px;
+        height: 47px;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-device-width : 440px) and (max-width: 768px) {
     .resumeBoxes {
         top: -40%;
         font-size: 60%;
     }
     #three {
         position: relative;
-        top: -28px;
+        top: -108px;
     }
     .pigLatinText {
         width: fit-content;
+    }
+    #mazeV {
+        width: 100px;
+        height: 100px;
+    }
+    #shelfV {
+        width: 100px;
+        height: 140px;
+    }
+    #pigV {
+        width: 87px;
+        height: 87px;
     }
     
 }
