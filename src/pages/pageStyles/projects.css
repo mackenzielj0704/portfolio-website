@@ -55,12 +55,12 @@
     #two {
         position: relative;
         left: -45%;
-        top: 150px;
+        top: 180px;
     }
     #three {
         position: relative;
         left: 25%;
-        top: -58px;
+        top: -56px;
     }
     #pigLatin {
         flex-direction: column;
