@@ -40,6 +40,13 @@
     }
 }
 
+@media only screen and (max-width: 1450px) {
+    .aboutBox {
+        top: -63%;
+        max-width: 70%;
+    }
+}
+
 @media only screen and (max-width: 770px) {
     .atitle {
         top: -40%;

@@ -32,6 +32,15 @@
     }
 }
 
+@media only screen and (max-width: 1450px) {
+    .link {
+        top: -30%;
+    }
+    .form {
+        top: -20%;
+    }
+}
+
 
 @media only screen and (max-width: 430px) {
     .link {

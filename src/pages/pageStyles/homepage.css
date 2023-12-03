@@ -41,7 +41,7 @@ hr {
     left: 20%;
 }
 
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1025px) {
     .title {
         font-size: 350%;
         position: relative;
@@ -57,6 +57,16 @@ hr {
     }
     .boxes {
         top: -10%;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .title {
+        position: relative;
+    }
+    hr {
+        width: 70%;
+        left: 15%;
     }
 }
 

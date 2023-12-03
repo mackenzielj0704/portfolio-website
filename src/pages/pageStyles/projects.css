@@ -31,6 +31,13 @@
         font-size: 80%;
     }
 }
+
+@media only screen and (max-width: 1450px) {
+    #three {
+       top: -10px; 
+    }
+}
+
 @media only screen and (max-width: 430px) {
     .resumeBoxes {
         top: -40%;
