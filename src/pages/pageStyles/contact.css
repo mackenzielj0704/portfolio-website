@@ -23,6 +23,16 @@
     }
 }
 
+@media only screen and (max-width: 1025px) {
+    .link {
+        top: -20%;
+    }
+    .form {
+        top: -17%;
+    }
+}
+
+
 @media only screen and (max-width: 430px) {
     .link {
         top: -35%;
