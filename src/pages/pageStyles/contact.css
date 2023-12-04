@@ -41,7 +41,7 @@
     }
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1900px) {
+@media only screen and (max-width: 1940px) and (min-width: 1900px) {
     h3#emailMe {
         font-size: 250%;
     }
