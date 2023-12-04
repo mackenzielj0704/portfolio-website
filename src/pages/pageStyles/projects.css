@@ -38,6 +38,21 @@
     }
 }
 
+@media only screen and (max-width: 1340px) {
+    .resumeBoxes {
+        top: -45%;
+    }
+    #three {
+        top: -20%;
+    }
+    h2.h2 {
+        font-size: 160%;
+    }
+    h4.h2 {
+        font-size: 120%;
+    }
+}
+
 @media only screen and (max-width: 430px) {
     .resumeBoxes {
         top: -40%;
@@ -112,16 +127,4 @@
         height: 87px;
     }
     
-}
-
-@media only screen and (max-width: 1940px) and (min-width: 1900px){
-    .resumeBoxes {
-        font-size: 150%;
-    }
-    h2.h2 {
-        font-size: 150%;
-    }
-    h4.h2 {
-        font-size: 150%;
-    }
 }

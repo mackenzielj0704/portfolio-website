@@ -36,15 +36,3 @@
     }
 
 }
-
-@media only screen and (max-width: 1940px) and (min-width: 1900px) {
-    .nav-item {
-        padding-left: 1%;
-        font-size: 240%;
-    }
-    #sidebarMenu {
-        max-width: fit-content;
-        padding: 5px;
-    }
-
-}
