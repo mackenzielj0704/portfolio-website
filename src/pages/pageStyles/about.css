@@ -76,3 +76,35 @@
         left: 40%;
     }
 }
+
+@media only screen and (max-width: 1920px) and (min-width: 1900px) {
+    .whoAmI {
+        width: 68%;
+        height: 100%;
+    }
+    .aboutBox {
+        position: relative;
+        top: -70%;
+        left: 13%;
+        max-width: 72%;
+        font-family: cursive;
+        font-size: 200%;
+    }
+    
+    .img {
+        width: 30%;
+        border-radius: 10%;
+        position: relative;
+        left: 64%;
+        top: -43%;
+        z-index: -1;
+    }
+    .atitle {
+        text-align: center;
+        position: relative;
+        top: -35%;
+        font-family: cursive;
+        z-index: -1;
+        font-size: 350%;
+    }
+}

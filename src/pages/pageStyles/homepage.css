@@ -122,3 +122,15 @@ hr {
         width: 80%;
     }
 }
+
+@media only screen and (max-width: 1920px) and (min-width: 1900px) {
+    .title {
+        font-size: 600%;
+    }
+    .littletext {
+        font-size: 300%;
+    }
+    .skills {
+        font-size: 200%;
+    }   
+}

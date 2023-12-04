@@ -17,7 +17,7 @@ function Contact () {
         if (submit === true) {
             return <p>Thank you! I will respond as soon as I can.</p>
         } else if (toSend.from_name === '' || toSend.message === '' || toSend.reply_to === ''){
-            return <p>Please fill out all inputs.</p>
+            return <p className='pleaseFill'>Please fill out all inputs.</p>
         } else {
             return
         }

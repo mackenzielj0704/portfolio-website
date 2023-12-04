@@ -41,6 +41,53 @@
     }
 }
 
+@media only screen and (max-width: 1920px) and (min-width: 1900px) {
+    h3#emailMe {
+        font-size: 250%;
+    }
+
+    #nameLabel {
+        font-size: 180%;
+    }
+    #emailLabel {
+        font-size: 180%;
+    }
+    #messageLabel {
+        font-size: 180%;
+    }
+    #email {
+        max-width: 100%;
+        font-size: 150%;
+        max-height: fit-content;
+    }
+    #name {
+        max-width: 1000%;
+        font-size: 150%;
+        max-height: fit-content;
+    }
+    #message {
+        max-width: 100%;
+        font-size: 150%;
+        max-height: fit-content;
+    }
+    #button {
+        max-width: fit-content;
+        max-height: fit-content;
+        font-size: 150%;
+        position: relative;
+        left: 100%;
+        top: -30px;
+    }
+
+    .link {
+        font-size: 230%;
+    }
+    .pleaseFill {
+        font-size: 150%;
+    }
+
+}
+
 
 @media only screen and (max-width: 430px) {
     .link {
