@@ -1,4 +1,4 @@
-
+import URL from "./Jessup_Mackenzie_Resume.docx.pdf"
 import './pageStyles/resume.css'
 
 function Resume () {
@@ -6,7 +6,9 @@ function Resume () {
     return (
         <>
         <h1 className="atitle">Resume</h1>
-        <iframe src="https://docs.google.com/document/d/1RUgncBORZL40qUD8bPB0vHIzokFeNMf4/edit?usp=sharing&ouid=103000041122393437651&rtpof=true&sd=true" width="90%" height="63%" className="pdf" />
+        <object data={URL} type="application/pdf" width="90%" height="80%" className="pdf">
+            <p><a href="http://africau.edu/images/default/sample.pdf">Link to Resume</a></p>
+        </object>
         </>
     )
 }
