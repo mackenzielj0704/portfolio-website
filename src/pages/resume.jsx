@@ -7,7 +7,7 @@ function Resume () {
         <>
         <h1 className="atitle">Resume</h1>
         <object data={URL} type="application/pdf" width="90%" height="80%" className="pdf">
-            <p><a href="http://africau.edu/images/default/sample.pdf">Link to Resume</a></p>
+            <p><a href={URL}>Link to Resume</a></p>
         </object>
         </>
     )
