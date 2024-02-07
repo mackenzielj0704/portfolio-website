@@ -1,22 +1,17 @@
-.whoAmI {
-    width: 70%;
-    height: 100%;
-    margin-left: 2%;
-}
+
 .aboutBox {
-    position: relative;
-    top: -70%;
+    top: -56%;
     left: 13%;
-    max-width: 72%;
+    position: relative;
+    max-width: 50%;
     font-family: cursive;
 }
 
 .img {
     width: 30%;
-    border-radius: 10%;
     position: relative;
     left: 64%;
-    top: -43%;
+    top: -23%;
     z-index: -1;
 }
 .atitle {
@@ -26,67 +21,3 @@
     font-family: cursive;
     z-index: -1;
 }
-
-@media only screen and (max-width: 1025px) {
-    .atitle {
-        top: -30%;
-    }
-    .aboutBox {
-        top: -50%;
-        max-width: 70%;
-    }
-    .img {
-        top: -30% ;
-    }
-}
-
-@media only screen and (max-width: 1450px) {
-    .aboutBox {
-        top: -63%;
-        max-width: 70%;
-    }
-}
-
-@media only screen and (max-width: 1340px) {
-    .aboutBox {
-        top: -80%;
-        max-width: 70%;
-    }
-    .atitle {
-        top: -45%;
-    }
-    .img {
-        top: -53%;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    .atitle {
-        top: -40%;
-    }
-    .aboutBox {
-        top: -65%;
-    }
-    .img {
-        top: -45%;
-        left: 68%;
-    }
-}
-
-@media only screen and (max-width: 430px) {
-    .atitle {
-        top: -40%;
-        left: 10%;
-    }
-    .aboutBox {
-        top: -23%;
-        font-size: 80%;
-        max-width: 90%;
-    }
-    .img {
-        top: -36% ;
-        width: 50%;
-        left: 40%;
-    }
-}
-
