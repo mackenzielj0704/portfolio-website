@@ -1,28 +1,5 @@
 .pdf {
     position: relative;
     top: -30%;
-    left: 8%;
-}
-
-@media only screen and (max-width: 1024px) {
-    .pdf {
-        top: -25%;
-        left: 15%;
-        max-width: 80%;
-    }
-}
-@media only screen and (max-width: 1340px) {
-    .pdf {
-        top: -40%;
-        left: 15%;
-        max-width: 80%;
-    }
-}
-@media only screen and (max-width: 430px) {
-    .pdf {
-        top: -11%;
-        left: 2%;
-        max-width: 100%;
-        max-height: 40%;
-    }
+    left: 15%;
 }

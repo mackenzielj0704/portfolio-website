@@ -6,7 +6,7 @@ function Resume () {
     return (
         <>
         <h1 className="atitle">Resume</h1>
-        <object data={URL} type="application/pdf" width="90%" height="80%" className="pdf">
+        <object data={URL} type="application/pdf" width="85%" height="80%" className="pdf">
             <p><a href={URL}>Link to Resume</a></p>
         </object>
         </>

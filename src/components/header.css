@@ -16,4 +16,5 @@
 
 .nav-link {
     font-family:cursive;
+    max-width: fit-content;
 }
