@@ -8,7 +8,7 @@ function Header () {
     return (
       <>
       <Background/>
-        <div className='box'>
+        <div className='container box'>
           <nav id="sidebarMenu">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">

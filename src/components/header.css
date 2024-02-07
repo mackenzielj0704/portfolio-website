@@ -1,6 +1,6 @@
 
 .box {
-    width: 70%;
+    width: 60%;
     height: 80%;
     border: 2px solid;
     border-color: lightgray;
@@ -16,23 +16,4 @@
 
 .nav-link {
     font-family:cursive;
-}
-.nav-item {
-    padding-left: 1%;
-}
-#sidebarMenu {
-    max-width: fit-content;
-    padding: 5px;
-}
-
-@media only screen and (max-width: 1450px) and (min-width: 1300px) {
-    .nav-item {
-        padding-left: 1%;
-        font-size: 160%;
-    }
-    #sidebarMenu {
-        max-width: fit-content;
-        padding: 5px;
-    }
-
 }
