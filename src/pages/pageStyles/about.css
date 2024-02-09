@@ -15,7 +15,9 @@
     z-index: -1;
 }
 .atitle {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    
     position: relative;
     top: -35%;
     font-family: cursive;

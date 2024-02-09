@@ -1,26 +1,27 @@
-.project {
-    width: 30%;
-    height:30%;
-    margin-left: 10%;
-}
-
-.resumeBoxes {
+.selectors {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
 
     position: relative;
-    top: -35%;
+    top: -65%;
     font-family: cursive;
-    z-index: -1;
 }
-#pigLatin {
- display: flex;
- width: 140%;
-} 
-#three {
+.select {
     position: relative;
-    left: -23%;
-    top: -20px;
+    top: 10px;
+    left: 20px;
+    font-size: large;
+}
+.recording {
+    position: relative;
+    top: -30%;
+    left: 15%;
+}
+.info {
+    position: relative;
+    top: -80%;
+    left: 57%;
+
+    width: 40%;
+    height: 40%;
+    font-family: cursive;
 }

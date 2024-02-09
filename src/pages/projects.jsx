@@ -1,41 +1,22 @@
 
+import { useState } from 'react'
 import './pageStyles/projects.css'
+import Maze from '../components/maze'
+import PigLatin from '../components/pigLatin'
+import ShelfHelp from '../components/shelf-help'
+import { Link, Outlet } from 'react-router-dom'
 
 function Projects () {
 
     return (
         <>
         <h1 className="atitle">Projects</h1>
-        <div className="resumeBoxes">
-            <div className="project" id='one'>
-                <h2 className='h2'>Maze/Sokoban Game</h2>
-                <div>
-                <iframe width="50%" height="50%" src="https://youtube.com/embed/7fcBXATiO2k" id='mazeV' className='d-none d-lg-block d-print-block'/>
-                    <p>
-                        A one-person project that was made with HTML, JS, and CSS.
-                        <br /> This site contains two games, a maze with three maps and sokoban with two.
-                    </p>
-                </div>
-            </div>
-            <div className="project" id='two'>
-                <h2 className='h2'>Shelf-Help</h2>
-                <iframe width="70%" height="70%" src="https://youtube.com/embed/IqP3iQPvBsE" id='shelfV' className='d-none d-lg-block d-print-block'/>
-                <div>
-                    <p>
-                       Worked as backend developer. MERN stack was used for this project.<br /> Shelf-help is a site that allows you to save books you have/want to/or are reading.
-                    </p>
-                </div>
-            </div>
-            <div className="project" id='three'>
-                <h2 className='h2'>Pig Latin Translator</h2>
-                <div id='pigLatin'>
-                <iframe width="47%" height="47%" src="https://youtube.com/embed/64hu596Barc" id='pigV' className='d-none d-lg-block d-print-block'/>
-                    <p className='pigLatinText' style={{marginLeft: "3%"}}>
-                        A one-person project made with HTML, CSS, and JS. 
-                        <br /> This site translates english to Pig-latin and Pig-latin to english live.
-                    </p>
-                </div>
-            </div>
+        <Outlet />
+        <div className='selectors'>
+            <h2><Link to="/projects/maze" style={{ color: 'inherit', textDecoration: 'inherit'}}>•Maze game••</Link></h2>
+            <h2><Link to="/projects/pigLatin" style={{ color: 'inherit', textDecoration: 'inherit'}}>Pig Latin Translator••</Link></h2>
+            <h2><Link to="/projects/shelfHelp" style={{ color: 'inherit', textDecoration: 'inherit'}}>Shelf-Help•</Link></h2>
+            <p className='select'>Select a project</p>
         </div>
         </>
     )

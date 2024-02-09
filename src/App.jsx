@@ -7,6 +7,9 @@ import Contact from './pages/contact'
 import Header from './components/header'
 import ErrorPage from './pages/error'
 import {BrowserRouter, Route, Routes } from "react-router-dom"
+import Maze from './components/maze'
+import PigLatin from './components/pigLatin'
+import ShelfHelp from './components/shelf-help'
 
 function App() {
   return (
@@ -15,7 +18,11 @@ function App() {
         <Route path='/' element={< Header />}>
           <Route index element={<Homepage />} />
           <Route path='about' element={<About/>} />
-          <Route path='projects' element={<Projects/>} />
+          <Route path='projects' element={<Projects/>} >
+            <Route path='maze' element={<Maze/>}/>
+            <Route path='pigLatin' element={<PigLatin/>}/>
+            <Route path='shelfhelp' element={<ShelfHelp/>}/>
+          </Route>
           <Route path='resume' element={<Resume/>} />
           <Route path='contact' element={<Contact/>} />
         </Route>
