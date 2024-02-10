@@ -1,7 +1,7 @@
 
 .aboutBox {
-    top: -56%;
-    left: 13%;
+    top: -290px;
+    left: 14%;
     position: relative;
     max-width: 50%;
     font-family: cursive;
@@ -11,7 +11,7 @@
     width: 30%;
     position: relative;
     left: 64%;
-    top: -23%;
+    top: -120px;
     z-index: -1;
 }
 .atitle {

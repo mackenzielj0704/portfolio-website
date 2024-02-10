@@ -1,7 +1,7 @@
 .link {
     position: relative;
     left: 20%;
-    top: -30%;
+    top: -170px;
     max-width: fit-content;
     font-family: cursive;
 }
@@ -9,7 +9,7 @@
 .form {
     position: relative;
     left: 20%;
-    top: -28%;
+    top: -150px;
     max-width: 70%;
     font-family: cursive;
 }
