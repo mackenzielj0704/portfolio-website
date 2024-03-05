@@ -2,7 +2,7 @@
     text-align: center;
     position: relative;
     top: -20%;
-    font-family: cursive;
+    font-family:"Itim", cursive;
     z-index: -1;
     font-size: 400%;
 }
@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     top: -20%;
     position: relative;
-    font-family: cursive;
+    font-family:"Itim", cursive;
     z-index: -1;
 }
 
@@ -26,7 +26,7 @@
 
 }
 .littletext {
-    font-family: cursive;
+    font-family:"Itim", cursive;
     position: relative;
     text-align: center;
     top: -20%;

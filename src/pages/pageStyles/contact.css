@@ -3,7 +3,7 @@
     left: 20%;
     top: -170px;
     max-width: fit-content;
-    font-family: cursive;
+    font-family:"Itim", cursive;
 }
 
 .form {
@@ -11,5 +11,5 @@
     left: 20%;
     top: -150px;
     max-width: 70%;
-    font-family: cursive;
+    font-family:"Itim", cursive;
 }

@@ -3,7 +3,7 @@
 
     position: relative;
     top: -330px;
-    font-family: cursive;
+    font-family:"Itim", cursive;
 }
 .select {
     position: relative;
@@ -23,5 +23,5 @@
 
     width: 40%;
     height: 40%;
-    font-family: cursive;
+    font-family:"Itim", cursive;
 }

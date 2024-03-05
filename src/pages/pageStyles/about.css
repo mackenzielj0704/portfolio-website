@@ -4,7 +4,7 @@
     left: 14%;
     position: relative;
     max-width: 50%;
-    font-family: cursive;
+    font-family: "Itim", cursive;
 }
 
 .img {
@@ -20,6 +20,6 @@
     
     position: relative;
     top: -175px;
-    font-family: cursive;
+    font-family: "Itim", cursive;
     z-index: -1;
 }
