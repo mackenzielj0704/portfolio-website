@@ -2,7 +2,7 @@
     display: flex;
 
     position: relative;
-    top: -330px;
+    top: -350px;
     font-family:"Itim", cursive;
 }
 .select {
@@ -14,12 +14,12 @@
 .recording {
     position: relative;
     top: -150px;
-    left: 15%;
+    left: 20%;
 }
 .info {
     position: relative;
-    top: -420px;
-    left: 57%;
+    top: -490px;
+    left: 61%;
 
     width: 40%;
     height: 40%;
